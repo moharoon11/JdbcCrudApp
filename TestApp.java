@@ -1,4 +1,3 @@
-import java.io.DataInputStream;
 import java.io.InputStreamReader;
 import java.sql.*;
 import java.util.*;
@@ -17,7 +16,7 @@ class TestApp {
 
     try {
     	
-    	 String url = "jdbc:mysql://localhost:3306/crudproject";
+    	       String url = "jdbc:mysql://localhost:3306/crudproject";
 	       String userName = "root";
 	       String password = "root123";
 
